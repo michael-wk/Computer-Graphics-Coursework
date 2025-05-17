@@ -18,7 +18,7 @@ uniform float ka;
 uniform float kd;
 uniform vec3 lightColour;
 uniform vec3 lightPosition;
-
+ 
 
 void main()
 {
