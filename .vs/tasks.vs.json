@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Computer-Graphics-Coursework",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-source",
+      "appliesTo": "source/",
+      "type": "launch"
+    }
+  ]
+}
