@@ -4,5 +4,13 @@
       "out\\build\\x64-Debug",
       "out\\install\\x64-Debug"
     ]
-  }
+  },
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\common",
+    "\\source"
+  ],
+  "SelectedNode": "\\Self_assessment_document.docx",
+  "PreviewInSolutionExplorer": false
 }
