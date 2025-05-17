@@ -82,14 +82,14 @@ glm::mat4 Maths::view(const glm::vec3& eye, const glm::vec3& target, const glm::
 glm::mat4 Maths::perspective(float fov, float aspect, float near, float far)
 {
     float tanFOV = tan(fov / 2.0f);
-    glm::mat4 result(0.0f);
+    glm::mat4 res(0.0f);
 
-    result[0][0] = 1.0f / (aspect * tanFOV);
-    result[1][1] = 1.0f / (tanFOV);
-    result[2][2] = -(far + near) / (far - near);
-    result[2][3] = -1.0f;
-    result[3][2] = -(2.0f * far * near) / (far - near);
-    return result;
+    res[0][0] = 1.0f / (aspect * tanFOV);
+    res[1][1] = 1.0f / (tanFOV);
+    res[2][2] = -(far + near) / (far - near);
+    res[2][3] = -1.0f;
+    res[3][2] = -(2.0f * far * near) / (far - near);
+    return res;
 }
 
 
